@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Books.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace Books.Pages.List
+{
+    public class CreateModel : PageModel
+    {
+        public CreateModel(ApplicationDbContext db)
+        {
+
+        }
+        public void OnGet()
+        {
+
+        }
+    }
+}
